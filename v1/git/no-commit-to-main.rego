@@ -44,7 +44,7 @@ reason = v {
 }
 
 find_commit_to_main {
-	some component in input.evidence.predicate.bom.components
+	some component in input.predicate.bom.components
 	component.group == "commit"
 }
 
