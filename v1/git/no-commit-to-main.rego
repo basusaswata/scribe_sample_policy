@@ -22,7 +22,7 @@ verify = v {
 	}
 }
 
-branch = input.evidence.predicate.environment.git_branch
+branch = input.predicate.environment.git_branch
 
 allow {
 	branch != "main"
