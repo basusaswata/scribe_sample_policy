@@ -4,7 +4,7 @@ import future.keywords.in
 
 default allow = false
 
-default branch = "wbr"
+default branch = "main"
 
 default violations = []
 
