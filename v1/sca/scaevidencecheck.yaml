@@ -5,7 +5,7 @@ level: "note"
 
 description: "Verify no commits to the main branch"
 labels:
-  - git
+  - sca
 initiatives:
   - bundle-rule
 
