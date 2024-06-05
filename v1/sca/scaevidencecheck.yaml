@@ -12,4 +12,4 @@ initiatives:
 evidence:
   signed: flase
   format-type: cyclonedx-json
-  target_type: sca
+  target_type: data
