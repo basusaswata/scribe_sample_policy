@@ -3,7 +3,7 @@ name: check evidence of SCA
 path: scaevidencecheck.rego
 level: "note"
 
-description: "Verify no commits to the main branch"
+description: "check evidence of SCA"
 labels:
   - sca
 initiatives:
