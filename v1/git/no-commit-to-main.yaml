@@ -2,14 +2,14 @@ name: disallow-commits-to-main gulu
 path: no-commit-to-main.rego
 level: "note"
 
-description: "Verify no commits to the main branch - gulu bhai"
+description: "Verify no commits to the main branch"
 labels:
   - git
 initiatives:
   - bundle-rule
 
 evidence:
-  signed: false
+  signed: true
   format-type: cyclonedx-json
   target_type: git
 
