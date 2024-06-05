@@ -22,7 +22,7 @@ verify = v {
 	}
 }
 
-branch = input.predicate.environment.git_branch
+branch = input.evidence.predicate.environment.git_branch
 
 allow {
 	branch != "main"
@@ -44,7 +44,7 @@ reason = v {
 }
 
 find_commit_to_main {
-	some component in input.predicate.bom.components
+	some component in input.evidence.predicate.bom.components
 	component.group == "commit"
 }
 
