@@ -2,7 +2,7 @@ name: disallow-commits-to-main
 path: no-commit-to-main.rego
 level: "note"
 
-description: "Verify no commits to the main branch"
+description: "Verify no commits to the main branch - gulu bhai"
 labels:
   - git
 initiatives:
