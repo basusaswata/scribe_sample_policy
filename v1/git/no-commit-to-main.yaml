@@ -1,4 +1,4 @@
-name: disallow-commits-to-main
+name: disallow-commits-to-main gulu
 path: no-commit-to-main.rego
 level: "note"
 
