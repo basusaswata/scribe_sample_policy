@@ -2,12 +2,11 @@ package verify
 
 # Deny rule to collect validation errors
 deny[{"msg": msg}] {
-    not id_is_valid
-    msg := "ID must be a number"
+    not filename_is_bhuchu
+    msg := "action must be 'basusaswata'"
 }
 
 # Helper rule
-id_is_valid {
-    input.id
-    input.id == number
+filename_is_bhuchu {
+    input.predicate.environment.actor == "basusaswata"
 }
