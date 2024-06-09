@@ -7,11 +7,11 @@ allow {
 }
 
 message = msg {
-  not allow
-  msg := "Required approving review count is not 2."
+  allow
+  msg := "Required approving review count is 2."
 }
 
 message = msg {
-  allow
-  msg := "Required approving review count is 2."
+  not allow
+  msg := "Required approving review count is not 2."
 }
